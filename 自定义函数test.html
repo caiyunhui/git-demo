@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		// function(){
+		// 	console.log(123);
+		// }();
+		//以上只是一个函数的声明 并不是直接形成一个表达式
+		// 所以不能被执行
+
+		// (function(){
+		// 	console.log(123);
+		// })();	
+		//而以上函数 加了() 目的就是先形成表达式再进行调用就可以打印出
+
+		var num = function(){
+			console.log(123);
+		}();
+		//以上函数 也是形成了表达式才去调用的 所以能打印
+	</script>
+</body>
+</html>
